@@ -1,8 +1,7 @@
-import { TemplateCard } from "./TemplateCard";
+import Router from "./Router";
 
 function App() {
-  return <>
-  <TemplateCard /></>;
+  return <Router />;
 }
 
 export default App;
