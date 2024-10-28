@@ -1,5 +1,8 @@
+import { TemplateCard } from "./TemplateCard";
+
 function App() {
-  return <></>;
+  return <>
+  <TemplateCard /></>;
 }
 
 export default App;
