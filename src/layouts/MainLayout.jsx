@@ -3,9 +3,9 @@ import { Sidebar } from "../components/Sidebar";
 
 export const MainLayout = ({ children }) => {
   return (
-    <div className="flex">
+    <div className="flex w-screen h-screen">
       <Sidebar />
-      <div>{children}</div>
+      <div className="w-full">{children}</div>
     </div>
   );
 };

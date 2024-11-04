@@ -5,3 +5,35 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.rm-breadcrumb .ant-breadcrumb-link:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-radio-group {
+  display: flex !important;
+  gap: 0.3rem !important;
+}
+
+.ant-radio-group-solid
+  :where(
+    .css-dev-only-do-not-override-apn68
+  ).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background-color: #fff !important;
+  color: #4f4f4f !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  width: 0 !important;
+}
+
+.no-scrollbar {
+  overflow: auto;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
