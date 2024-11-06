@@ -5,7 +5,7 @@ export const MainLayout = ({ children }) => {
   return (
     <div className="flex w-screen h-screen">
       <Sidebar />
-      <div className="w-full">{children}</div>
+      <div className="w-full overflow-hidden">{children}</div>
     </div>
   );
 };

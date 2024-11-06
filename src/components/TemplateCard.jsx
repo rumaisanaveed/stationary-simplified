@@ -7,7 +7,7 @@ export const TemplateCard = () => {
   const tags = ["Business Cards", "Purple", "Modern"];
   return (
     <div
-      className="w-80 min-w-80 h-80 group"
+      className="w-80 h-80 shrink-0 group"
       style={{
         backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: "cover",

@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "custom-gray-50": "#4F4F4F",
+        "custom-blue-50" : "#55A4FF"
       },
     },
   },

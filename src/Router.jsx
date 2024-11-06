@@ -10,6 +10,15 @@ import { Profile } from "./pages/Profile";
 import { Settings } from "./pages/Settings";
 import { HelpAndSupport } from "./pages/HelpAndSupport";
 import { FavTemplates } from "./pages/FavTemplates";
+import { SignIn } from "./pages/SignIn";
+import { SignUp } from "./pages/SignUp";
+import { BusinessCards } from "./pages/BusinessCards";
+import { Letterheads } from "./pages/Letterheads";
+import { Envelopes } from "./pages/Envelopes";
+import { Flyers } from "./pages/Flyers";
+import { Notebooks } from "./pages/Notebooks";
+import { Certificates } from "./pages/Certificates";
+import { EventInvitations } from "./pages/EventInvitations";
 
 export default function Router() {
   return (
@@ -26,6 +35,15 @@ export default function Router() {
         <Route element={<Profile />} path="/profile" />
         <Route element={<Settings />} path="/settings" />
         <Route element={<HelpAndSupport />} path="/help-and-support" />
+        <Route element={<SignIn />} path="/sign-in" />
+        <Route element={<SignUp />} path="/sign-up" />
+        <Route element={<BusinessCards />} path="/business-cards" />
+        <Route element={<Letterheads />} path="/letterheads" />
+        <Route element={<Envelopes />} path="/envelopes" />
+        <Route element={<Flyers />} path="/flyers-and-brochures" />
+        <Route element={<Notebooks />} path="/notebooks-and-diaries" />
+        <Route element={<Certificates />} path="/cerficiates-and-awards" />
+        <Route element={<EventInvitations />} path="/event-invitations" />
       </Routes>
     </BrowserRouter>
   );

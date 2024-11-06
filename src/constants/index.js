@@ -85,12 +85,12 @@ export const sidebarLowerItems = [
 ];
 
 export const templateCategories = [
-  "All",
-  "Business Cards",
-  "Letterheads",
-  "Envelopes",
-  "Flyers & Brochures",
-  "Notebooks & Diaries",
-  "Certificates & Awards",
-  "Event Invitations",
+  ["All", "featured"],
+  ["Business Cards", "business", "/business-cards"],
+  ["Letterheads", "letterheads", "/letterheads"],
+  ["Envelopes", "envelopes", "/envelopes"],
+  ["Flyers & Brochures", "flyers", "/flyers-and-brochures"],
+  ["Notebooks & Diaries", "notebook", "/notebooks-and-diaries"],
+  ["Certificates & Awards", "certificates", "/cerficiates-and-awards"],
+  ["Event Invitations", "events", "/event-invitations"],
 ];
