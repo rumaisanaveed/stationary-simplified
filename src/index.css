@@ -10,7 +10,6 @@ body {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-
 .no-scrollbar {
   overflow: auto;
   scrollbar-width: none; /* For Firefox */
@@ -33,7 +32,7 @@ body {
 }
 
 .rm-radio-tags .ant-radio-button {
-  background-color: #55A4FF;
+  background-color: #55a4ff;
   border-radius: 4px;
   border: none;
 }
@@ -49,9 +48,33 @@ body {
 }
 
 .rm-radio-tags .ant-radio-button-wrapper:hover {
-  color: #55A4FF;
+  color: #55a4ff;
 }
 
 .rm-radio-tags .ant-radio-button-wrapper:active {
   animation: none;
+}
+
+.bullet-list::before {
+  content: "•"; /* Bullet character */
+  color: black; /* Bullet color */
+  font-weight: bold; /* Bullet weight */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em; /* Adjust position */
+  margin-right: 0; /* Space after bullet */
+}
+
+.rm-logout-modal .ant-modal-close {
+  color: black !important;
+  border: 3px solid black !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+}
+
+.rm-logout-modal .ant-modal-close {
+  padding: 0 !important;
+  margin-top: 0 !important;
 }

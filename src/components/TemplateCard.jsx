@@ -3,18 +3,17 @@ import React from "react";
 import { Tag } from "./Tag";
 import BackgroundImage from "../assets/images/templateBackground.png";
 
-export const TemplateCard = () => {
+export const TemplateCard = ({ className }) => {
   const tags = ["Business Cards", "Purple", "Modern"];
   return (
     <div
-      className="w-80 h-80 shrink-0 group"
+      className={`w-80 h-80 shrink-0 group ${className}`}
       style={{
         backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: "cover",
       }}
     >
       <div className="relative group-hover:opacity-100 group-hover:duration-500 duration-500 opacity-0 bg-gradient-to-t from-black to-[#00000010] flex flex-col justify-between items-end p-4 h-full z-0">
-        {" "}
         <div className="flex flex-col gap-1">
           <div className="bg-white p-1 rounded-[4px]">
             <Heart size="16" color="#000000" />

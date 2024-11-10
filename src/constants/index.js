@@ -86,11 +86,31 @@ export const sidebarLowerItems = [
 
 export const templateCategories = [
   ["All", "featured"],
-  ["Business Cards", "business", "/business-cards"],
-  ["Letterheads", "letterheads", "/letterheads"],
-  ["Envelopes", "envelopes", "/envelopes"],
-  ["Flyers & Brochures", "flyers", "/flyers-and-brochures"],
-  ["Notebooks & Diaries", "notebook", "/notebooks-and-diaries"],
-  ["Certificates & Awards", "certificates", "/cerficiates-and-awards"],
-  ["Event Invitations", "events", "/event-invitations"],
+  [
+    "Business Cards",
+    "business",
+    "/business-cards",
+    [
+      "All",
+      "Minimalist",
+      "Modern",
+      "Classic",
+      "Elegant",
+      "Vintage",
+      "Abstract",
+    ],
+  ],
+  ["Letterheads", "letterheads", "/letterheads", []],
+  ["Envelopes", "envelopes", "/envelopes", []],
+  ["Flyers & Brochures", "flyers", "/flyers-and-brochures", []],
+  ["Notebooks & Diaries", "notebook", "/notebooks-and-diaries", []],
+  ["Certificates & Awards", "certificates", "/cerficiates-and-awards", []],
+  ["Event Invitations", "events", "/event-invitations", []],
+];
+
+export var breadCrumbItems = [
+  {
+    title: "Dashboard",
+    href: "/dashboard",
+  },
 ];
